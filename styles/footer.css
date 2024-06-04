@@ -1,0 +1,13 @@
+.footer-info-wrapper {
+    display: flex;
+    justify-content: right;
+}
+
+.footer-info {
+    margin: 0 40px;
+}
+
+.footer-info p {
+    text-align: center;
+    vertical-align: middle;
+}

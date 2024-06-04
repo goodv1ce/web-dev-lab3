@@ -1,0 +1,142 @@
+header {
+    height: 130px;
+    width: 100%;
+    background-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: sans-serif;
+}
+
+.top-btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.divider {
+    border-bottom: 1px solid #CCCCCC;
+    margin: 5px 0 5px;
+}
+
+.top-btn-wrapper .buttons a:visited,
+.top-btn-wrapper .buttons a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.top-btn-wrapper .buttons a:hover {
+    text-decoration: underline;
+}
+
+.top-btn-wrapper .buttons a {
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.search-bar-wrapper {
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+#company-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.search-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar-wrapper .align-wrapper {
+    width: 55%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-wrapper {
+    color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+.search {
+    width: 400px;
+    height: 43px;
+    align-items: center;
+    color: #ececec;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.search-form {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.search-form > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: #F5F5F5;
+    padding: 0 15px;
+    height: 30px;
+}
+
+.search-form .search-logo {
+    height: 20px;
+    width: 20px;
+}
+
+.search-btn button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    height: 43px;
+    width: 43px;
+}
+
+.search-bar-actions {
+    height: 43px;
+    width: 100px;
+}
+
+.search-bar-actions img {
+    height: 43px;
+    width: 50px;
+}
+
+.search-bar-actions a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-text {
+    font-size: 15px;
+}
+
+.search-bar-actions a:hover,
+.search-bar-actions a:link,
+.search-bar-actions a:visited {
+    text-decoration: none;
+    color: black;
+}
